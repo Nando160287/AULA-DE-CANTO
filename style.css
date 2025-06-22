@@ -9,7 +9,49 @@ body {
     font-family: Arial, sans-serif;
     background: linear-gradient(to bottom, #3719dc, #9322af);
     color: #333;
+    line-height: 1.5;    
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width:90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}   
+
+.cabecalho {
+    background-color: #9322af;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    padding: 15px 0;
+    width: 100%;
+}
+
+.navegacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FF69B4;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+   
 
 header {
     background-color: #ea2be4;
@@ -77,7 +119,8 @@ footer {
         margin: 10px 0;
     }
 
-    h2, p {
+    h2,
+    p {
         margin: 20px;
         font-size: 16px;
     }
